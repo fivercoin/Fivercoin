@@ -1001,8 +1001,7 @@ int64_t GetProofOfWorkReward(int64_t nFees, unsigned int nHeight)
         nSubsidy = 555 * COIN;
     }
     
-    LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d\n", FormatMoney(nSubsidy), nSubsidy);
-    
+      
     return nSubsidy + nFees;
 }
 
