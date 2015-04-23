@@ -1024,8 +1024,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees, unsigned int nHei
         nSubsidy = 1 * COIN;
     }
     
-    LogPrint("creation", "GetProofOfStakeReward(): create=%s nCoinAge=%d\n", FormatMoney(nSubsidy), nCoinAge);
-    
+        
     return nSubsidy + nFees;
 }
 
